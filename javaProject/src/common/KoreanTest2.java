@@ -3,7 +3,7 @@ package common;
 public class KoreanTest2 {
 	public static void main(String[] args) {
 		
-		System.out.println("°á°ú°ªÀº ÀÔ´Ï´Ù.");
+		System.out.println("í•œê¸€í…ŒìŠ¤íŠ¸ìž…ë‹ˆë‹¤.");
 	}
 
 }
