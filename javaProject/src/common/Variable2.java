@@ -6,7 +6,7 @@ public class Variable2 {
 		a = 100;
 		b = 200;
 		result = a + b;
-		System.out.println("°á°ú°ªÀº " + result + " ÀÔ´Ï´Ù.");
+		System.out.println("í•œê¸€ì„ " + result + "í‘œí˜„í•´ë¼");
 	}
 
 }
