@@ -9,6 +9,10 @@ public class LongExample {
 		long var4 = 10000000000L;
 		System.out.println(Integer.MAX_VALUE);
 		System.out.println(Long.MAX_VALUE);
+		System.out.println(var1);
+		System.out.println(var2);
+		System.out.println(var3);
+		System.out.println(var4);
 	}
 
 }
