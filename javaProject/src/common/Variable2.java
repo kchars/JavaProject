@@ -7,6 +7,7 @@ public class Variable2 {
 		b = 200;
 		result = a + b;
 		System.out.println("한글을 " + result + "표현해라");
+		System.out.println("Git 오류 확인");
 	}
 
 }
