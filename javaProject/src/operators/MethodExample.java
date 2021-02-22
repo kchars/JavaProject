@@ -14,6 +14,7 @@ public class MethodExample {
 		System.out.println("결과 : " + result1);
 		System.out.println("결과 : " + result2);
 		System.out.println("결과 : " + result3);
+		System.out.println(""+ 10 + 20 );
 
 	}
 
