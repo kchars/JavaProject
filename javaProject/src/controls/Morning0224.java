@@ -44,6 +44,6 @@ public class Morning0224 {
 			grade = "가";
 		}
 		System.out.println("성적은 영어"+ eng + "점 수학" + math + "점의 평균으로 \"" + grade + "\" 입니다.");
-		return "hoho";
+		return "";
 	} // *GETAVERAGE END
 }
