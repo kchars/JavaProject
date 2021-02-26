@@ -44,9 +44,9 @@ public class ArrayExample {
 		for (int i = 0; i < averages.length; i++) {
 			System.out.println(averages[i]);
 		}
-		String[] strs = { "Hello", "Good", "Nice", "20" };
-		for (int i = 0; i < strs.length; i++) {
-			System.out.println(strs[i]);
-		}
+//		String[] strs = { "Hello", "Good", "Nice", "20" };
+//		for (int i = 0; i < strs.length; i++) {
+//			System.out.println(strs[i]);
+//		}
 	}
 }

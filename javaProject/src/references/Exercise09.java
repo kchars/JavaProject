@@ -17,34 +17,47 @@ public class Exercise09 {
 			System.out.println("Choose>");
 
 			int selectNo = scanner.nextInt();
-
+			if (selectNo != 1 && scores == null) {
+				System.out.println("\"1번\" 학생수를 입력하세요..");
+				System.out.println();
+				continue;
+			}
 			if (selectNo == 1) {
 				System.out.println("학생수>");
 				studentNum = studentNum + scanner.nextInt();
 				scores = new int[studentNum];
 				System.out.println("학생수 : " + studentNum);
 			} else if (selectNo == 2) {
-				System.out.println("scores[0]>");
-				scores[0] = scores[0] + scanner.nextInt();
-				System.out.println("scores[1]>");
-				scores[1] = scores[1] + scanner.nextInt();
-				System.out.println("scores[2]>");
-				scores[2] = scores[2] + scanner.nextInt();
-			} else if (selectNo == 3) {
-				System.out.println("scores[0] = " + scores[0]);
-				System.out.println("scores[1] = " + scores[1]);
-				System.out.println("scores[2] = " + scores[2]);
-
-			} else if (selectNo == 4) {
-				int maxValue = 0;
-				double avg = 0.0;
-				int sum = 0;
+//				System.out.println("scores[0]>");
+//				scores[0] = scores[0] + scanner.nextInt();
+//				System.out.println("scores[1]>");
+//				scores[1] = scores[1] + scanner.nextInt();
+//				System.out.println("scores[2]>");
+//				scores[2] = scores[2] + scanner.nextInt();
+//				답지
 				for (int i = 0; i < scores.length; i++) {
-					if (scores[i] > maxValue) {
-						maxValue = scores[i];
-					}
+					System.out.println("scores[" + i + "]");
+					scores[i] = scanner.nextInt();
 				}
-				System.out.println("최대 : " + maxValue);
+			} else if (selectNo == 3) {
+//				System.out.println("scores[0] = " + scores[0]);
+//				System.out.println("scores[1] = " + scores[1]);
+//				System.out.println("scores[2] = " + scores[2]);
+//				답지
+				for (int i = 0; i < scores.length; i++) {
+					System.out.println("scores[" + i + "]" + scores[i]);
+				}
+			} else if (selectNo == 4) {
+//				int maxValue = 0;
+//				double avg = 0.0;
+//				int sum = 0;
+//				for (int i = 0; i < scores.length; i++) {
+//					if (scores[i] > maxValue) {
+//						maxValue = scores[i];
+//					}
+//				}
+//				System.out.println("최대 : " + maxValue);
+//				시행착오
 //				avg = 
 //				int max = 0, sum = 0;
 //				double avg = 0.0;
@@ -55,6 +68,20 @@ public class Exercise09 {
 //				avg = (double)sum / studentNum;
 //				System.out.println("최고 점수: " + max);
 //				System.out.println("평균 점수: " + avg);
+//				답지
+				int sum = 0;
+				double avg = 0.0;
+				int maxValue = 0;
+				for (int i = 0; i < scores.length; i++) {
+					sum += scores[i];
+					if (scores[i] > maxValue) {
+						maxValue = scores[i];
+					}
+				}
+				avg = (double) sum / studentNum;
+				System.out.println("최고 점수: " + maxValue);
+				System.out.println("평균 점수: " + avg);
+
 			} else if (selectNo == 5) {
 				run = false;
 			}
