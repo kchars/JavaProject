@@ -19,6 +19,8 @@ public class Morning0226 {
 			sum = sum + score;
 		}
 		System.out.println("합계 : " + sum);
+		
+		morning0226();
 	}
 
 	public static void morning0226() {
