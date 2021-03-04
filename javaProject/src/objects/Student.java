@@ -7,11 +7,11 @@ public class Student {
 	int math;
 	int eng;
 
-	// 생성자 : 기능 - 필드값을 초기화.
 	public Student() {
 		System.out.println("생성자를 호출합니다.");
 	}
 
+	// 생성자 : 기능 - 필드값을 초기화.
 	Student(String studentNo) {
 		this.studentNo = studentNo;
 	}

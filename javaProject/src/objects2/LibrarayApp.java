@@ -14,29 +14,37 @@ public class LibrarayApp {
 		Book[] bookList = new Book[10];
 		Member user = new Member();
 		Scanner scn = new Scanner(System.in);
+		String BookTitle;
+		
 
 		while (true) {
 			System.out.println("---------------------------------------------------------");
 			System.out.println("1.도서정보등록 2.회원정보등록 3.도서대여 4.도서반납 5.도서목록 9.종료");
 			System.out.println("---------------------------------------------------------");
-		}
 
-		int menu = scn.nextInt();
+			int menu = scn.nextInt();
 
-		if (menu == 1) {
-			user.getBookTitle = scn.nextInt();
-			System.out.println("도서 제목을 입력하시요.");
+			if (menu == 1) {
+				for(int i = 0; i < bookList.length; i++) {
+					System.out.println("도서명, 저자, 출픈사, 가격 : ");
+					BookTitle = scn.next();
+				}
+				
+				
+				
+				
 
-		} else if (menu == 2) {
+			} else if (menu == 2) {
 
-		} else if (menu == 3) {
+			} else if (menu == 3) {
 
-		} else if (menu == 4) {
+			} else if (menu == 4) {
 
-		} else if (menu == 5) {
+			} else if (menu == 5) {
 
-		} else if (menu == 9) {
-			break;
+			} else if (menu == 9) {
+				break;
+			}
 		}
 	}
 }

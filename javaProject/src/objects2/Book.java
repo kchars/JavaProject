@@ -6,8 +6,10 @@ public class Book {
 	private String bookAuthor; // 저자
 	private String bookPress; // 출판사
 	private int bookPrice; // 금액
+	
+	
 
-	public Book(String bookTitle, String bookAuthor, String bookPress, int bookPrice) {
+	Book(String bookTitle, String bookAuthor, String bookPress, int bookPrice) {
 		this.bookTitle = bookTitle;
 		this.bookAuthor = bookAuthor;
 		this.bookPress = bookPress;
