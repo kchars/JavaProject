@@ -15,7 +15,7 @@ public class Tri {
 			for(int j= 0; j<ary[i].length; j++) {
 				System.out.print(i+j);
 			}System.out.println();
-			i = i+i;
+			i = i-4;
 		}
 	}
 }
