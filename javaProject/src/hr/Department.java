@@ -9,7 +9,7 @@ public class Department {
 	public int getDepartmentID() {
 		return departmentID;
 	}
-	public void setDepartmentID(int departmentID) {
+	public void setDepartmentId(int departmentID) {
 		this.departmentID = departmentID;
 	}
 	public String getDepartmentName() {
@@ -21,13 +21,13 @@ public class Department {
 	public int getManagerID() {
 		return managerID;
 	}
-	public void setManagerID(int managerID) {
+	public void setManagerId(int managerID) {
 		this.managerID = managerID;
 	}
 	public int getLocationID() {
 		return locationID;
 	}
-	public void setLocationID(int locationID) {
+	public void setLocationId(int locationID) {
 		this.locationID = locationID;
 	}
 	@Override

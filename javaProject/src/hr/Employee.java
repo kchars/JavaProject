@@ -12,7 +12,7 @@ public class Employee {
 	public int getEmployeeID() {
 		return employeeID;
 	}
-	public void setEmployeeID(int employeeID) {
+	public void setEmployeeId(int employeeID) {
 		this.employeeID = employeeID;
 	}
 	public String getFirstName() {
@@ -48,7 +48,7 @@ public class Employee {
 	public String getJobID() {
 		return jobID;
 	}
-	public void setJobID(String jobID) {
+	public void setJobId(String jobID) {
 		this.jobID = jobID;
 	}
 	public int getSalary() {
